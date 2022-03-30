@@ -39,9 +39,12 @@ achieves considerable speedup compared with sliding kd tree.
 ## Usage
 First, clone this repository or just download the `.AppImage` file in `Linux`
 folder. Then run it with option `-h` for help. The following table lists the
-shipped algorithms and the corresponding options. For sample based algorithms,
-parameters N0 and N1 should be specified by `--sample-size` and `sample-num`
-respectively.
+shipped algorithms and the corresponding options. For all the methods, arguments
+`--input`, `-n`, `-r`, `-m` should be passed to the program for the input file
+name, data length, threshold for similarity and template length. For sample
+based algorithms, parameters N0 and N1 should be specified by `--sample-size`
+and `--sample-num` respectively. It is as well reccomended to use
+`--output-level 0` to suppress unnecessary outputs.
 
 | method  | option |
 |---|---|
